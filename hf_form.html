@@ -1,53 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>  </title>
+	<link rel="stylesheet" href="allpages2.css">
+		<body>
+	<header>
+<ul class="amed" >
+	 <li class="amed" ><img src = "HF logoWT.png" width=100px height= 100px></li>
+	   </br>
+  <li class="amed" ><a href="homepage.html" class="active">Home</a></li>
 
-  <title>HF forms database</title>
-  <link rel="stylesheet" href="allpages2.css">
-</head>
-<body>
-     <div class="container">
-        <div class="row col-md-6 col-md-offset-3">
-          <div class="panel panel-primary>
-           <div class="panel-heading text-center">
-             <h1>data base</h1>
-            </div>
-            <div class="panel-body">
-              <form action="connect.php"  method="post">
-                 <div class="form"-group">
-                    <label for="firstName">First  Name</label>
-                    <input type="text"  class="form-control" id"firstName" name="firstName" />
-                </div>
-                <div class="form-group">
-                    <label for="lastName">Last Name</label>
-                    <input type="text" class="form-control"  id="lastName" name="lastName" />
-                    </div>
-                 <div class="form-group">
-                     <label for="email" >Gender</label>
-                     <div>
-                          <label for="male"  class="radio-inline"><input type="radio"  name="gender"  value="m" id="male">male</label>
-                          <label for="female"class="radio-inline"><input type="radio"  name="gender" value="f" id="female">female</label>
-                          <label for="others"class="radio-inline"><input type="radio"  name="gender"  value="o" id="others">others</label>
-                   </div>
-                   <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" class="form-control" id="email" name="email"  />
-                  </div>
-                  <div class="form-group">
-                     <label for="password">Password</label>
-                     <input type="number" class="form-control"  id="number"  name="password"  />
-                   </div>
-                   <div  class="form-group">
-                     <label for="number">Phone number</label>
-                     <input type="number" class="form-control"  id="number"  name="number"  />
-                   </div>
-                   <input  type="submit" class="btn btn-primary">
-               </form>
-         </div>
-         <div class="panel-footer text-right">
-              <small>&copy; Critic</small>
-        </div> 
-      </div>
-   </div>
-</body>
-</html>
+  <li class="cmed" ><a href="Information.html">Information Hub</a></li>
+  <li class="cmed" ><a href="forms.html">Contact Us</a></li>
+  <li class="cmed" ><a href="#about">Response</a></li>
+  <li class="cmed" ><a href="Members.html">Members</a></li>
+</ul>
+</header>
+<div class="top">
+<img src = "HF logoWT.png" width=100px height= 100px>
+<H1>Please Help Us With Your Information</h1>
+</div>
+ <div class="mid">
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Akosua" size="50"required><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Agyeman"size="50"required><br>
+  <label for="food">Food:</label><br>
+  <input type="text" id="food" name="food" value="Place your food order" size="50"required><br>
+  <label for="comment">comment:</label><br>
+  <input type="text" id="comment" name="comment" value="How Food is wanted and previous experience"size="50"required><br><br>
+  <label for="GHregions">Which Region Are you In:</label><br>
+  <select name="region" id="region">
+    <option value="Ashanti">Ashanti</option>
+    <option value="Bono Region">Bono Region</option>
+    <option value="Bono East Region">Bono East Region</option>
+    <option value="Ahafo Region">Ahafo Region</option>
+	 <option value="Central">Central</option>
+    <option value="	Eastern">	Eastern</option>
+    <option value="Greater Accra">Greater Accra</option>
+    <option value="Savannah">Savannah</option>
+	 <option value="North East">North East</option>
+    <option value="Upper East">Upper East</option>
+    <option value="	Upper West">	Upper West</option>
+    <option value="Volta Region">Volta Region</option>
+	 <option value="Oti">Oti</option>
+    <option value="	Western Region">Western Region</option>
+    <option value="Western North">Western North</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+
+
+
+
+</br>
+</br>
+</br>
+</br>
+
+<footer>
+<ul>
+	<li class="amed" ><a href="homepage.html" class="active">Home</a></li>
+	<li><a href="Information.html">Information Hub</a></li>
+  <li class="cmed" ><a href="forms.html">Contact Us</a></li>
+  <li class="cmed" ><a href="#about">Response</a></li>
+  <li class="cmed" ><a href="members.html">Members</a></li>
+</ul>
+</footer>
